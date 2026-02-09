@@ -1,0 +1,73 @@
+baseURL = 'https://yourname.github.io/blog/'
+languageCode = 'zh-CN'
+defaultContentLanguage = 'zh-cn'
+title = 'AI Agent 博客'
+theme = 'PaperMod'
+
+[params]
+  env = "production"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowFullTextinRSS = true
+  hideFooter = false
+
+  [params.assets]
+    favicon = "favicon.ico"
+    favicon16x16 = "favicon-16x16.png"
+    favicon32x32 = "favicon-32x32.png"
+    apple_touch_icon = "apple-touch-icon.png"
+
+  [params.label]
+    text = "Home"
+    icon = "/apple-touch-icon.png"
+    iconHeight = 35
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourname/blog"
+
+[languages.zh-cn]
+  languageName = "中文"
+  title = "AI Agent 博客"
+  weight = 1
+
+[[menu.main]]
+identifier = "home"
+name = "首页"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "history"
+name = "发展史"
+url = "/categories/发展史/"
+weight = 2
+
+[[menu.main]]
+identifier = "trends"
+name = "热点趋势"
+url = "/categories/热点趋势/"
+weight = 3
+
+[[menu.main]]
+identifier = "column"
+name = "个人能力培养"
+url = "/categories/个人能力培养/"
+weight = 4
+
+[[menu.main]]
+identifier = "agents"
+name = "个人助理军团"
+url = "/categories/个人助理军团/"
+weight = 5
+
+[[menu.main]]
+identifier = "wechat"
+name = "微信公众号"
+url = "/wechat/"
+weight = 6
