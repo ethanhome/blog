@@ -15,6 +15,7 @@ theme = 'PaperMod'
   ShowRssButtonInSectionTermList = true
   ShowFullTextinRSS = true
   hideFooter = false
+  emojis = false  # 禁用emoji转换
 
   [params.assets]
     favicon = "favicon.ico"
